@@ -4,8 +4,9 @@
  * @Date: 2021-04-26 14:18:26
 -->
 ---
-title: about
+title: 关于我
 date: 2021-04-26 14:18:26
+layout: about
 ---
 # About page
 about:
