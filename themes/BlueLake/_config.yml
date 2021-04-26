@@ -3,24 +3,21 @@ version: 3.0.0
 
 # Theme tone
 dark: true # true/false
-favicon: /favicon.png
-banner: "images/banner.jpg"
-banner-dark: "images/banner-dark.jpg"
+favicon: /favicon.ico
+# banner: "images/banner.jpg"
+# banner-dark: "images/banner-dark.jpg"
 
 # Header
 menu:
-  - page: home
+  - page: 首页
     directory: .
     icon: fa-home
-  - page: archive
+  - page: 文章
     directory: archives/
     icon: fa-archive
-  - page: about
+  - page: 关于我
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
 
 # RSS & Sitemap plugins
 Plugins:
@@ -93,14 +90,14 @@ about:
   photo_url: 'http://cdn.chaooo.top/blog/themeauthor.jpg' ## Your photo e.g. http://cdn.chaooo.top/blog/themeauthor.jpg
   items:
   - label: email
-    url: 'mailto:zhenggchaoo@gmail.com'  ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
-    title: 'zhenggchaoo@gmail.com' ## Your email e.g.  zhenggchaoo@gmail.com
+    url: 'mailto:jianjun6668@163.com'  ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
+    title: 'jianjun6668@163.com' ## Your email e.g.  zhenggchaoo@gmail.com
   - label: github
-    url: 'https://github.com/chaooo' ## Your github'url e.g.  https://github.com/chaooo
-    title: 'chaooo' ## Your github'name e.g.  chaooo
-  - label: weibo
-    url: 'http://weibo.com/zhengchaooo' ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
-    title: '秋过冬漫长' ## Your weibo's name e.g.  秋过冬漫长
+    url: 'https://github.com/jianjun6668' ## Your github'url e.g.  https://github.com/chaooo
+    title: '永春' ## Your github'name e.g.  chaooo
+  # - label: weibo
+  #   url: 'http://weibo.com/zhengchaooo' ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
+  #   title: '秋过冬漫长' ## Your weibo's name e.g.  秋过冬漫长
 
 # Gitalk comment
 gitalk:
@@ -140,10 +137,10 @@ comment:
   cloudTie: ## 网易云跟帖(productKey)
 
 # Friend Links widget. Empty links will hide widget.
-links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+# links:
+#   - title: site-name1
+#     url: http://www.example1.com/
+#   - title: site-name2
+#     url: http://www.example2.com/
+#   - title: site-name3
+#     url: http://www.example3.com/
